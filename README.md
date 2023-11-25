@@ -10,16 +10,25 @@ Web-API проекта Phonebook
 
 ---
 
-### SERVICES
+### DATA
 
-* **Phonebook**
-* **TestPhonebook**
-* **PhonebookIdentity**
+* **Phonebook** -- 
+* **TestPhonebook** -- 
+* **PhonebookRandomInitialization** -- 
+* **PhonebookSimpleInitialization** -- 
   
+---
+
+### IDENTITY
+
+* **PhonebookIdentity** -- 
+* **PhonebookIdentityBagInitialization** -- 
+* **PhonebookIdentitySimpleInitialization** -- 
+
 ---
 
 ### CONTROLLERS
 
-* **Contacts**
-* **Identity**
-* **IdentityRole**
+* **Contacts** -- 
+* **Identity** -- 
+* **IdentityRole** -- 
