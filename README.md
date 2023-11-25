@@ -6,6 +6,7 @@
 
 Web-API проекта Phonebook
 
+> [!NOTE]
 > :eye_speech_bubble: [Использует общие библиотеки](https://github.com/rozhkovsvyat/Project19.Libs)
 
 ---
