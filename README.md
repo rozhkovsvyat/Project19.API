@@ -4,9 +4,7 @@
 
 **#aspnetcore7.0.10 #net7.0.10 #efcore7.0.13 #jwtbearer #mongodb #postgresql**
 
-Web-API проекта Phonebook
-
-Использются [библиотеки](https://github.com/rozhkovsvyat/Project19.Libs)
+Web-API проекта Phonebook (использованы [библиотеки](https://github.com/rozhkovsvyat/Project19.Libs))
 
 > :eye_speech_bubble: https://api.efcore.ru/contacts
 > 
