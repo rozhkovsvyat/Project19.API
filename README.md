@@ -10,6 +10,14 @@ Web-API проекта Phonebook
 
 ---
 
+### SERVICES
+
+* **Phonebook**
+* **TestPhonebook**
+* **PhonebookIdentity**
+  
+---
+
 ### CONTROLLERS
 
 * **Contacts**
