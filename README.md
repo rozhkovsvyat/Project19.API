@@ -12,7 +12,7 @@ Web-API проекта Phonebook
 
 ---
 
-### DATA
+### DATA SERVICES
 
 * **Phonebook** -- 
 * **TestPhonebook** -- 
@@ -21,7 +21,7 @@ Web-API проекта Phonebook
   
 ---
 
-### IDENTITY
+### IDENTITY SERVICES
 
 * **PhonebookIdentity** -- 
 * **PhonebookIdentityBagInitialization** -- 
