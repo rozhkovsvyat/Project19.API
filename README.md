@@ -6,6 +6,8 @@
 
 Web-API проекта Phonebook
 
+Использются [библиотеки]([https://pages.github.com/](https://github.com/rozhkovsvyat/Project19.Libs)
+
 > :eye_speech_bubble: https://api.efcore.ru/contacts
 > 
 > :lock: https://api.efcore.ru/identity
