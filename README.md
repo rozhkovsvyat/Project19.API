@@ -12,8 +12,8 @@ Web-API проекта Phonebook
 
 ### SERVICES
 
-* **Phonebook** -- инициализируемый сервис контактов / [PostgreSQL 7.0.11](https://www.nuget.org/packages/Npgsql.EntityFrameworkCore.PostgreSQL) + [Contacts.Db 1.1.0](https://www.nuget.org/packages/RozhkovSvyat.Project19.Models.Contacts.Db/) + [Services.Initializator 1.0.2](https://www.nuget.org/packages/RozhkovSvyat.Project19.Services.Initializator/)
-* **TestPhonebook** -- тестовый инициализируемый сервис контактов / [Contacts.Test 1.1.0](https://www.nuget.org/packages/RozhkovSvyat.Project19.Models.Contacts.Test/) + [Services.Initializator 1.0.2](https://www.nuget.org/packages/RozhkovSvyat.Project19.Services.Initializator/)
+* **Phonebook** -- сервис контактов / [PostgreSQL 7.0.11](https://www.nuget.org/packages/Npgsql.EntityFrameworkCore.PostgreSQL) + [Contacts.Db 1.1.0](https://www.nuget.org/packages/RozhkovSvyat.Project19.Models.Contacts.Db/) + [Services.Initializator 1.0.2](https://www.nuget.org/packages/RozhkovSvyat.Project19.Services.Initializator/)
+* **TestPhonebook** -- тестовый сервис контактов / [Contacts.Test 1.1.0](https://www.nuget.org/packages/RozhkovSvyat.Project19.Models.Contacts.Test/) + [Services.Initializator 1.0.2](https://www.nuget.org/packages/RozhkovSvyat.Project19.Services.Initializator/)
 * **PhonebookRandomInitialization** -- 
 * **PhonebookSimpleInitialization** -- 
   
