@@ -8,7 +8,7 @@ Web-API проекта Phonebook
 
 > :eye_speech_bubble: https://api.efcore.ru/contacts
 > 
-> :eye_speech_bubble: https://api.efcore.ru/identity
+> :lock: https://api.efcore.ru/identity
 
 ---
 
