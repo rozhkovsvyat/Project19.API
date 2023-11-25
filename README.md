@@ -12,6 +12,6 @@ Web-API проекта Phonebook
 
 ### CONTROLLERS
 
-* **ContactsController**
-* **IdentityController**
-* **IdentityRoleController**
+* **Contacts**
+* **Identity**
+* **IdentityRole**
