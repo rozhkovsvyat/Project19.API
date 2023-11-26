@@ -14,6 +14,8 @@ Web-API проекта Phonebook
 
 > :link: [Использует общие библиотеки](https://github.com/rozhkovsvyat/Project19.Libs)
 
+---
+
 ### SERVICES
 
 * **Phonebook** -- сервис поставщика контактов / [PostgreSQL](https://www.nuget.org/packages/Npgsql.EntityFrameworkCore.PostgreSQL) + [Contacts.Db](https://www.nuget.org/packages/RozhkovSvyat.Project19.Models.Contacts.Db/) + [HealthChecks](https://www.nuget.org/packages/Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore) + [Initializator](https://www.nuget.org/packages/RozhkovSvyat.Project19.Services.Initializator/)
