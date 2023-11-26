@@ -159,14 +159,14 @@ public static class PhonebookExtensions
 	{
 		var jwtConfig = config.GetSection(nameof(TokenValidationParameters));
 
-		var issuer = Environment.GetEnvironmentVariable("JWT_ISSUER") is string i && !string.IsNullOrEmpty(i) ? i
-			: jwtConfig["Issuer"] is string _i && !string.IsNullOrEmpty(_i) ? _i : throw new InvalidOperationException($"JWT-issuer not found.");
+		var issuer = Environment.GetEnvironmentVariable("JWT_ISSUER") is { } i && !string.IsNullOrEmpty(i) ? i
+			: jwtConfig["Issuer"] is { } ii && !string.IsNullOrEmpty(ii) ? ii : throw new InvalidOperationException("JWT-issuer not found.");
 
-		var audience = Environment.GetEnvironmentVariable("JWT_AUDIENCE") is string a && !string.IsNullOrEmpty(a) ? a
-			: jwtConfig["Audience"] is string _a && !string.IsNullOrEmpty(_a) ? _a : throw new InvalidOperationException($"JWT-audience not found.");
+		var audience = Environment.GetEnvironmentVariable("JWT_AUDIENCE") is { } a && !string.IsNullOrEmpty(a) ? a
+			: jwtConfig["Audience"] is { } aa && !string.IsNullOrEmpty(aa) ? aa : throw new InvalidOperationException("JWT-audience not found.");
 
-		var key = Environment.GetEnvironmentVariable("JWT_KEY") is string k && !string.IsNullOrEmpty(k) ? k
-			: jwtConfig["Key"] is string _k && !string.IsNullOrEmpty(_k) ? _k : throw new InvalidOperationException($"JWT-key not found.");
+		var key = Environment.GetEnvironmentVariable("JWT_KEY") is { } k && !string.IsNullOrEmpty(k) ? k
+			: jwtConfig["Key"] is { } kk && !string.IsNullOrEmpty(kk) ? kk : throw new InvalidOperationException("JWT-key not found.");
 
 		collection.AddAuthentication(x =>
 		{

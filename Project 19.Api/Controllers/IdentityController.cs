@@ -7,7 +7,7 @@ using Project_19.Models;
 namespace Project_19.Controllers;
 
 /// <summary>
-/// Api-контроллер работы с коллекцией <see cref="Account"/>)
+/// Api-контроллер работы с коллекцией <see cref="Account"/>
 /// </summary>
 [ApiController, Route("[controller]")]
 [Authorize]
