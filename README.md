@@ -24,8 +24,8 @@ Web-API проекта Phonebook
 
 ### CONTROLLERS
 
-* **Contacts** -- <sub>_g_</sub><sup>( )</sup> / <sub>_g_</sub>**Ping**</sub><sup>( )</sup> / <sub>_[auth]g_</sub><sup>(int)</sup> / <sub>_[auth]p_</sub><sup>(contact)</sup> / <sub>_[admin]pt_</sub><sup>(int,contact)</sup> / <sub>_[admin]d_</sub><sup>(int)</sup>
-
-* **Identity** -- 	<sub>_g_</sub>**Ping**<sup>( )</sup> / <sub>_p_</sub>**LogOut**<sup>( )</sup> / <sub>_p_</sub><sup>(str,signinform)</sup> / <sub>_p_</sub><sup>(str,createaccountform)</sup> / <sub>_[auth]pt_</sub>**Password**<sup>(str,changepasswordform)</sup> / <sub>_[admin]g_</sub><sup>( )</sup> / <sub>_[admin]g_</sub><sup>(int)</sup> / <sub>_[admin]pt_</sub><sup>(str,account)</sup> / <sub>_[admin]d_</sub><sup>(str)</sup> / <sub>_[admin]g_</sub>**Login**<sup>(str)</sup> / <sub>_[admin]d_</sub>**Remove**<sup>(str)</sup> / <sub>_[admin]g_</sub>**Exclude**<sup>(str)</sup> / <sub>_[admin]g_</sub>**Include**<sup>(str)</sup> / <sub>_[admin]pt_</sub>**Include**<sup>(str,str)</sup> / <sub>_[admin]pt_</sub>**IncludeAll**<sup>(str,[str])</sup> / <sub>_[admin]pt_</sub>**Exclude**<sup>(str,str)</sup> / <sub>_[admin]pt_</sub>**ExcludeAll**<sup>(str,[str])</sup>
-
-* **IdentityRole** -- <sub>_[admin]g_</sub><sup>( )</sup> / <sub>_[admin]g_</sub><sup>(int)</sup> / <sub>_[admin]p_</sub><sup>(createroleform)</sup> / <sub>_[admin]pt_</sub><sup>(role)</sup> / <sub>_[admin]d_</sub><sup>(str)</sup>
+* **ContactsController** -- <sub>_g_</sub><sup>( )</sup> / <sub>_g_</sub>**Ping**</sub><sup>( )</sup> / <sub>_g_</sub><sup>(int)</sup>* / <sub>_p_</sub><sup>(contact)</sup>* / <sub>_pt_</sub><sup>(int,contact)</sup>** / <sub>_d_</sub><sup>(int)</sup>**
+  
+* **IdentityRoleController** -- <sub>_g_</sub><sup>( )</sup>** / <sub>_g_</sub><sup>(int)</sup>** / <sub>_p_</sub><sup>(createroleform)</sup>** / <sub>_pt_</sub><sup>(role)</sup>** / <sub>_d_</sub><sup>(str)</sup>**
+  
+* **IdentityController** -- 	<sub>_g_</sub>**Ping**<sup>( )</sup> / <sub>_p_</sub>**LogOut**<sup>( )</sup> / <sub>_p_</sub><sup>(str,signinform)</sup> / <sub>_p_</sub><sup>(str,createaccountform)</sup> / <sub>_pt_</sub>**Password**<sup>(str,changepasswordform)</sup>* / <sub>_g_</sub><sup>( )</sup>** / <sub>_g_</sub><sup>(int)</sup>** / <sub>_pt_</sub><sup>(str,account)</sup>** / <sub>_d_</sub><sup>(str)</sup>** / <sub>_g_</sub>**Login**<sup>(str)</sup>** / <sub>_d_</sub>**Remove**<sup>(str)</sup>** / <sub>_g_</sub>**Exclude**<sup>(str)</sup>** / <sub>_g_</sub>**Include**<sup>(str)</sup>** / <sub>_pt_</sub>**Include**<sup>(str,str)</sup>** / <sub>_pt_</sub>**IncludeAll**<sup>(str,[str])</sup>** / <sub>_pt_</sub>**Exclude**<sup>(str,str)</sup>** / <sub>_pt_</sub>**ExcludeAll**<sup>(str,[str])</sup>**
