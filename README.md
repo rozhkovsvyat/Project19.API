@@ -1,6 +1,6 @@
 # Project 19 : Phonebook API
 
-<img align="right" width="100" height="100" src="https://github.com/rozhkovsvyat/Project19.API/assets/71471748/705ea0d8-cfcc-4283-ad34-a8567e31eac4">
+<img align="right" width="100" height="100" src="https://github.com/rozhkovsvyat/Project19.Libs/assets/71471748/612712b7-7172-4b3e-bf29-db45b1319606">
 
 **#aspnetcore7.0.10**
 
