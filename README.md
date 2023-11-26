@@ -9,7 +9,7 @@ Web-API проекта Phonebook
 
 > :link: [Использует общие библиотеки](https://github.com/rozhkovsvyat/Project19.Libs)
 >
-> :mega: **200** Ok / **404** NotFound / **409** Conflict / **500** Exception / **401** Unauthorized
+> :loudspeaker: **200** Ok / **404** NotFound / **409** Conflict / **500** Exception / **401** Unauthorized
 
 Предоставляет разграниченный доступ к коллекции контактов и учетным записям пользователей:
 * **Администратор** -- любые CRUD-операции над контактами, управление учетными записями и ролями
