@@ -26,7 +26,7 @@ Web-API проекта Phonebook
 > :bulb: Инициализация коллекций происходит при первом запуске API
 * **PhonebookSimpleInitialization** -- добавление трех контактов / [Contacts.Factory](https://www.nuget.org/packages/RozhkovSvyat.Project19.Models.Contacts.Factory/)
 * **PhonebookRandomInitialization** -- добавление случайного числа контактов / [Contacts.Factory](https://www.nuget.org/packages/RozhkovSvyat.Project19.Models.Contacts.Factory/)
-* **PhonebookIdentitySimpleInitialization** -- добавление учетных записей "admin" и "default" / [Identity.Factory](https://www.nuget.org/packages/RozhkovSvyat.Project19.Models.Identity.Factory/)
+* **PhonebookIdentitySimpleInitialization** -- добавление пользователя и администратора / [Identity.Factory](https://www.nuget.org/packages/RozhkovSvyat.Project19.Models.Identity.Factory/)
 * **PhonebookIdentityBagInitialization** -- добавление учетных записей из конфигурации / [Identity.Factory](https://www.nuget.org/packages/RozhkovSvyat.Project19.Models.Identity.Factory/)
 
 ---
