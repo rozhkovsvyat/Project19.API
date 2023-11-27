@@ -5,7 +5,7 @@
 
 **#net7.0.10-aspnetcore**
 
-Web-API телефонной книги
+Web-API телефонной книжки
 
 > :link: [Использует общие библиотеки](https://github.com/rozhkovsvyat/Project19.Libs)
 
