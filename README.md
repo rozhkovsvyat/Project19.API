@@ -48,5 +48,7 @@ Web-API проекта Phonebook
 
 ---
 
-### RETURN
-* **200** Ok / **404** NotFound / **409** Conflict / **500** Exception / **401** Unauthorized
+:bomb: **401** unauthorized
+:bomb: **404** notfound
+:bomb: **409** conflict
+:bomb: **500** exception
