@@ -31,7 +31,7 @@ API телефонной книги
 
 ### CONTROLLERS
 
-* **ContactsController** ../Contacts/ -- выполняет операции над контактами
+* **ContactsController** ../Contacts/ -- управляет коллекцией контактов
 
 > :memo: **<sub>_type_</sub>Method<sup>(args)**</sup>*<sup>-auth/</sup>**<sup>-аdmin</sup>
 >
