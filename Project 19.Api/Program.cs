@@ -7,7 +7,7 @@ builder.Services
 	.AddPhonebookRandomInitialization() //.AddSimpleInitialization();
 	.AddPhonebookIdentity(builder.Configuration)
 	.AddPhonebookIdentityBagInitialization(builder.Configuration);
-//.AddPhonebookIdentitySimpleInitialization()
+	//.AddPhonebookIdentitySimpleInitialization()
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
