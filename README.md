@@ -22,8 +22,8 @@ API телефонной книги
 * **TestPhonebook** -- тестовый поставщик контактов / [Contacts.Test](https://www.nuget.org/packages/RozhkovSvyat.Project19.Models.Contacts.Test) + [Initializator](https://www.nuget.org/packages/RozhkovSvyat.Project19.Services.Initializator)
 * **PhonebookIdentity** -- идентификация / [MongoDbCore](https://www.nuget.org/packages/AspNetCore.Identity.MongoDbCore) + [JwtBearer](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.JwtBearer) + [Identity.Mongo](https://www.nuget.org/packages/RozhkovSvyat.Project19.Models.Identity.Mongo) + [Initializator](https://www.nuget.org/packages/RozhkovSvyat.Project19.Services.Initializator)
 > :bulb: Инициализация коллекций происходит при первом запуске API
-* **PhonebookSimpleInitialization** -- добавление 3 контактов / [Contacts.Factory](https://www.nuget.org/packages/RozhkovSvyat.Project19.Models.Contacts.Factory)
-* **PhonebookRandomInitialization** -- добавление случайного числа (3, 5 или 8) контактов / [Contacts.Factory](https://www.nuget.org/packages/RozhkovSvyat.Project19.Models.Contacts.Factory)
+* **PhonebookSimpleInitialization** -- добавление трех контактов / [Contacts.Factory](https://www.nuget.org/packages/RozhkovSvyat.Project19.Models.Contacts.Factory)
+* **PhonebookRandomInitialization** -- добавление случайного числа контактов (3, 5 или 8) / [Contacts.Factory](https://www.nuget.org/packages/RozhkovSvyat.Project19.Models.Contacts.Factory)
 * **PhonebookIdentitySimpleInitialization** -- добавление пользователя и администратора / [Identity.Factory](https://www.nuget.org/packages/RozhkovSvyat.Project19.Models.Identity.Factory)
 * **PhonebookIdentityBagInitialization** -- добавление учетных записей из конфигурации / [Identity.Factory](https://www.nuget.org/packages/RozhkovSvyat.Project19.Models.Identity.Factory)
 
