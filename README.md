@@ -48,7 +48,7 @@ API телефонной книги
 
 ---
 
-:bomb: **401** unauthorized
-:bomb: **404** notfound
-:bomb: **409** conflict
-:bomb: **500** exception
+💣 **401** unauthorized
+💣 **404** notfound
+💣 **409** conflict
+💣 **500** exception
